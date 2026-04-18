@@ -1,8 +1,8 @@
 ---
 name: User Story
 about: Create a user story with clear requirements and acceptance criteria
-title: ''
-labels: ''
+title: Login Feature
+labels: user-story
 assignees: ''
 
 ---
