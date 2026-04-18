@@ -38,6 +38,7 @@ Then an error message should be displayed
 Given the user is on the login page  
 When the user leaves required fields empty  
 And clicks the login button  
+Then validation messages should be displayed
 
 ---
 
