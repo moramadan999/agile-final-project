@@ -18,17 +18,26 @@ So that I can access my dashboard.
 
 ## Acceptance Criteria
 
-- Given the user is on the login page  
-  When they enter valid email and password  
-  Then they should be redirected to the dashboard  
+### Scenario 1: Successful login
+Given the user is on the login page  
+When the user enters a valid email and password  
+And clicks the login button  
+Then the user should be redirected to the dashboard  
 
-- Given the user enters invalid credentials  
-  When they click the login button  
-  Then an error message should be displayed  
+---
 
-- Given the user leaves required fields empty  
-  When they try to submit the form  
-  Then validation messages should appear  
+### Scenario 2: Invalid credentials
+Given the user is on the login page  
+When the user enters an invalid email or password  
+And clicks the login button  
+Then an error message should be displayed  
+
+---
+
+### Scenario 3: Empty fields validation
+Given the user is on the login page  
+When the user leaves required fields empty  
+And clicks the login button  
 
 ---
 
